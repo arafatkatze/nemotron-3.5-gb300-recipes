@@ -95,6 +95,7 @@ docker rm nemotron35-recipes
 - [`evidence/model-manifest.json`](evidence/model-manifest.json): SHA256 and byte counts for the pinned model files; no weights redistributed.
 - [`evidence/provenance.json`](evidence/provenance.json): measured benchmark source hash and packaging changes.
 - [`figures/`](figures/): three PNGs and editable SVGs, ready for a CMS, Notion or HTML.
+- [`figures/captions.md`](figures/captions.md): conditions kept outside the images; [`figures/light/`](figures/light/) contains warm light alternatives. PNGs are 1920 × 1080.
 - `python3 render_figures.py`: regenerate the figures from the distributed summaries.
 
 The original measured campaign scripts were adapted to accept portable CLI paths, remove environment-specific prose-reference dependencies, require all 69 observations to pass and expose the confirmation integrity check. Packaging checks validate syntax, CLI behavior and deterministic figure regeneration; the portable release was not rerun on a GPU. Original campaign measurements and fresh-server confirmation are retained separately and are not described as new packaging measurements.
