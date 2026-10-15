@@ -66,7 +66,7 @@ Results are written to `runs/candidate/`. The benchmark runs correctness checks,
 
 [Full benchmark, control comparison and pins](docs/BENCHMARK.md) · [Raw results and original scripts](evidence/campaign/)
 
-![Intelligence × speed](design-gallery/assets/03-swiss-intelligence.png)
+![Intelligence × speed](figures/intelligence-speed.png)
 
 *Chart reference points are visually estimated; reference speeds use 100K input versus local 8K. The highlighted intelligence score was not measured on this local configuration.*
 
