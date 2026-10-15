@@ -6,7 +6,7 @@ Open recipes, benchmark code, synthetic quality cases, measured summaries, and e
 
 **11,677–11,840 aggregate output tokens/sec** over local streaming HTTP at 256 concurrent requests, in six repetitions across two fresh server instances. Each request used exactly 512 input and 512 generated output tokens. Output includes native reasoning and final-answer tokens. This is aggregate output, not the speed of one user.
 
-![Six measured repetitions](figures/01-six-runs.png)
+![Intelligence × speed](design-gallery/assets/03-swiss-intelligence.png)
 
 ## Results
 
