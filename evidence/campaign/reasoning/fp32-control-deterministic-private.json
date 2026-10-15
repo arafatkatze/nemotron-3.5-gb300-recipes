@@ -1,0 +1,85 @@
+{
+  "concurrency": 4,
+  "thinking_enabled": true,
+  "input_tokens": 512,
+  "output_tokens": 128,
+  "requests": 4,
+  "completed_tokens": 512,
+  "wall_seconds": 0.9892779049696401,
+  "aggregate_output_tok_s": 517.5492118321522,
+  "common_decode_tok_s": 1184.29185680044,
+  "ttft_p50": 0.564642947021639,
+  "ttft_max": 0.5648776359739713,
+  "latency_p50": 0.9851188819739036,
+  "latency_max": 0.9881820930168033,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 511682.647969359,
+      "first": 511683.207854336,
+      "end": 511683.61148451,
+      "ttft": 0.5598849770030938,
+      "latency": 0.9635151510010473,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "The user wants an extended, detailed engineering tutorial on designing a reliable service based on the provided document. The document is just a repetitive sentence: \"A reliable service records requests, validates inputs, processes jobs and handles failures.\" repeated many times.\n\nI need to write a tutorial that is at least 1500 words, covering:\n1. Designing the service\n2. Examples\n3. Failure analysis\n4. Testing\n5. It should be extended and detailed\n\nStructure I should use:\n- Introduction\n- Core Principles / Requirements\n- High-Level Architecture\n- Component Deep Dives:\n  - Request Recording/Ing",
+      "sha256": "ef901a9ec65f48f616c2027e251e8c5f24047af115cb52bf631f6e6b7d90d18c",
+      "chunks": 67
+    },
+    {
+      "index": 1,
+      "begin": 511682.648407088,
+      "first": 511683.213284724,
+      "end": 511683.636350173,
+      "ttft": 0.5648776359739713,
+      "latency": 0.9879430849687196,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "The user wants an extended, detailed engineering tutorial on designing a reliable service based on the provided document. The document is just a repeated sentence: \"A reliable service records requests, validates inputs, processes jobs and handles failures.\" repeated many times.\n\nI need to write a tutorial of at least 1500 words covering:\n1. Designing this service\n2. Examples\n3. Failure analysis\n4. Testing\n\nStructure should be comprehensive:\n- Introduction/Overview\n- Core Requirements (derived from the sentence: record requests, validate inputs, process jobs, handle failures)\n- Architecture/High-level design\n- Component deep dives",
+      "sha256": "f80a84eb5d3146cab6959743e5100e3ffc2bdcc54ba9d39b601643f6fe3b7313",
+      "chunks": 70
+    },
+    {
+      "index": 2,
+      "begin": 511682.648620561,
+      "first": 511683.213329204,
+      "end": 511683.636802654,
+      "ttft": 0.5647086430108175,
+      "latency": 0.9881820930168033,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "The user wants an extended, detailed engineering tutorial on designing a reliable service based on the provided document. The document is just a repeated sentence: \"A reliable service records requests, validates inputs, processes jobs and handles failures.\" repeated many times.\n\nI need to write a tutorial of at least 1500 words covering:\n- Designing this service\n- Examples\n- Failure analysis\n- Testing\n- Extended and detailed\n\nStructure should be something like:\n1. Introduction / Core Pillars (recording, validation, processing, failure handling)\n2. Architecture Overview (components, diagram description, tech stack options)\n3. Request Recording",
+      "sha256": "1d9160ec01f3f29d549219ca18e38e363f29db48838620cbae582df1f0c342af",
+      "chunks": 70
+    },
+    {
+      "index": 3,
+      "begin": 511682.648791858,
+      "first": 511683.213369109,
+      "end": 511683.631086537,
+      "ttft": 0.5645772510324605,
+      "latency": 0.9822946789790876,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "The user wants an extended, detailed engineering tutorial on designing a reliable service based on the provided document. The document is essentially a repeated sentence: \"A reliable service records requests, validates inputs, processes jobs and handles failures.\" \n\nI need to write a tutorial that is at least 1500 words, covering:\n1. Designing the service\n2. Examples (code snippets, architecture diagrams described in text, etc.)\n3. Failure analysis\n4. Testing\n\nThe tutorial should be structured, detailed, and engineering-focused. I'll break it down into sections:\n- Introduction/Overview\n- Core Principles (from the",
+      "sha256": "205f18aebb02219d188c0e0a37ccd18275e0b79befe639f2c38905de7c57ccf2",
+      "chunks": 69
+    }
+  ]
+}

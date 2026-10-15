@@ -1,0 +1,84 @@
+{
+  "concurrency": 4,
+  "input_tokens": 512,
+  "output_tokens": 128,
+  "requests": 4,
+  "completed_tokens": 512,
+  "wall_seconds": 0.6627361729624681,
+  "aggregate_output_tok_s": 772.5547825635216,
+  "common_decode_tok_s": 1345.6957279708802,
+  "ttft_p50": 0.2958231445227284,
+  "ttft_max": 0.29613621800672263,
+  "latency_p50": 0.6568570640229154,
+  "latency_max": 0.6616717529832385,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 509627.993947536,
+      "first": 509628.278810914,
+      "end": 509628.628562233,
+      "ttft": 0.28486337803769857,
+      "latency": 0.6346146970172413,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Detailed Component Design](#detailed-component-design)\n   - 4.1 Request Ingestion and Recording\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling and Recovery\n5. [Implementation Examples](#implementation-examples)\n6. [Failure Analysis and",
+      "sha256": "2cd90f1ac3ea289b08ef33055b221b212b8185b9e21be69c902ba19d1ab4945c",
+      "chunks": 40
+    },
+    {
+      "index": 1,
+      "begin": 509627.994228177,
+      "first": 509628.290364395,
+      "end": 509628.65589993,
+      "ttft": 0.29613621800672263,
+      "latency": 0.6616717529832385,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Executive Summary](#executive-summary)\n2. [Core Functional Pillars](#core-functional-pillars)\n3. [System Architecture & Component Design](#system-architecture--component-design)\n4. [Detailed Implementation Guide](#detailed-implementation-guide)\n   - 4.1 Request Recording & Ingestion\n   - 4.2 Input Validation Strategies\n   - 4.3 Job Processing & Orchestration\n   - 4.4 Failure Handling & Recovery\n5. [Failure Analysis &",
+      "sha256": "4dcc48e7ae326e88e88e7d8302c041d719a52dc29bd7173e01858cbe0313bb47",
+      "chunks": 42
+    },
+    {
+      "index": 2,
+      "begin": 509627.994510034,
+      "first": 509628.290407723,
+      "end": 509628.646617369,
+      "ttft": 0.2958976890076883,
+      "latency": 0.6521073350450024,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## 1. Introduction\n\nIn modern distributed systems, the concept of a \"reliable service\" is foundational. Whether you are building a payment gateway, a user registration system, an image processing pipeline, or an IoT data ingestion engine, the core requirements remain consistent: the service must **record requests**, **validate inputs**, **process jobs**, and **handle failures**.\n\nThis tutorial provides a comprehensive engineering guide to designing, implementing, and operating such a service. We will move beyond simple code snippets to explore architectural patterns, state management, concurrency, observ",
+      "sha256": "1391a0c5e9a4140db3d2161d1f335219921ac92636ab0b85457c8766af9ddb74",
+      "chunks": 41
+    },
+    {
+      "index": 3,
+      "begin": 509627.994704019,
+      "first": 509628.290452619,
+      "end": 509628.656310812,
+      "ttft": 0.2957486000377685,
+      "latency": 0.6616067930008285,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## 1. Introduction\n\nIn modern distributed systems, reliability is not a feature; it is a prerequisite. Whether you are building a payment gateway, a video transcoding pipeline, or an IoT data ingestion service, the core contract remains the same: **the service must record requests, validate inputs, process jobs, and handle failures.**\n\nThis tutorial provides a comprehensive engineering guide to designing, implementing, and operating such a service. We will move beyond the simple loop of \"receive and respond\" to build a system that is durable, observable, and self-healing.\n\n",
+      "sha256": "2e7fcd20178f49fbb8dd9a94eb368c85c1ef9eb0ecf4af5b2998f9ce80d6715a",
+      "chunks": 42
+    }
+  ]
+}

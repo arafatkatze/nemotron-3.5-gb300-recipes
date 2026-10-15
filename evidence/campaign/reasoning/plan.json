@@ -1,0 +1,55 @@
+[
+  {
+    "arm": "fp32-control",
+    "state_dtype": "float32",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--speculative-config",
+      "{\"method\":\"mtp\",\"num_speculative_tokens\":1}"
+    ]
+  },
+  {
+    "arm": "fp16-sr-mtp1",
+    "state_dtype": "float16",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--enable-mamba-cache-stochastic-rounding",
+      "--mamba-cache-philox-rounds",
+      "5",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 1}"
+    ]
+  },
+  {
+    "arm": "fp16-sr-mtp3",
+    "state_dtype": "float16",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--enable-mamba-cache-stochastic-rounding",
+      "--mamba-cache-philox-rounds",
+      "5",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 3}"
+    ]
+  },
+  {
+    "arm": "fp16-sr-mtp5",
+    "state_dtype": "float16",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--enable-mamba-cache-stochastic-rounding",
+      "--mamba-cache-philox-rounds",
+      "5",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 5}"
+    ]
+  }
+]

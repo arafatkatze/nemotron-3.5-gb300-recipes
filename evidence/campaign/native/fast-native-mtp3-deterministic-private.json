@@ -1,0 +1,84 @@
+{
+  "concurrency": 4,
+  "input_tokens": 512,
+  "output_tokens": 128,
+  "requests": 4,
+  "completed_tokens": 512,
+  "wall_seconds": 0.7554385800031014,
+  "aggregate_output_tok_s": 677.7519887823283,
+  "common_decode_tok_s": 1045.2464772149372,
+  "ttft_p50": 0.34567168197827414,
+  "ttft_max": 0.34602454700507224,
+  "latency_p50": 0.709559390990762,
+  "latency_max": 0.7547079540090635,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 508666.008624373,
+      "first": 508666.277612958,
+      "end": 508666.683321283,
+      "ttft": 0.2689885849831626,
+      "latency": 0.6746969100204296,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Detailed Component Design](#detailed-component-design)\n   - 4.1 Request Ingestion and Recording\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling and Recovery\n5. [Implementation Examples](#implementation-examples)\n6. [Failure Analysis and",
+      "sha256": "2cd90f1ac3ea289b08ef33055b221b212b8185b9e21be69c902ba19d1ab4945c",
+      "chunks": 40
+    },
+    {
+      "index": 1,
+      "begin": 508666.008914774,
+      "first": 508666.354939321,
+      "end": 508666.763622728,
+      "ttft": 0.34602454700507224,
+      "latency": 0.7547079540090635,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Request-Processing Service\n\n## 1. Introduction\n\nIn modern distributed systems, the boundary between a client and a backend processor is a critical failure surface. A service that merely accepts HTTP requests and forwards them to a database is not \"reliable.\" A reliable service is one that can guarantee, with high probability, that a valid request is processed exactly once, that invalid requests are rejected with actionable diagnostics, and that partial failures do not corrupt system state.\n\nThis tutorial walks through the design, implementation, failure analysis, and testing of a **Reliable Request-Processing Service**. The service",
+      "sha256": "f2ccd09581d1ffddae2c6cd467075f6acb632e74522e1dfc8eb666260a261a11",
+      "chunks": 50
+    },
+    {
+      "index": 2,
+      "begin": 508666.009215831,
+      "first": 508666.354963001,
+      "end": 508666.710873308,
+      "ttft": 0.34574716998031363,
+      "latency": 0.7016574770095758,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Request-Processing Service\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Detailed Component Design](#detailed-component-design)\n   - 4.1 Request Ingestion and Recording\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling and Recovery\n5. [Implementation Examples](#implementation-examples)\n6. [Failure Analysis and",
+      "sha256": "dae1bb1847dc91818a155c5db3fd72c703cc67dfaba3be30c589475cc509b39a",
+      "chunks": 42
+    },
+    {
+      "index": 3,
+      "begin": 508666.009390423,
+      "first": 508666.354986617,
+      "end": 508666.726851728,
+      "ttft": 0.34559619397623464,
+      "latency": 0.7174613049719483,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## 1. Introduction\n\nIn modern distributed systems, the concept of a \"reliable service\" is foundational. Whether you are building a payment gateway, a video transcoding pipeline, or an IoT data ingestion platform, the core loop remains the same: **record requests, validate inputs, process jobs, and handle failures.**\n\nThis tutorial provides a comprehensive engineering guide to designing such a service. We will move beyond the simple sentence provided in the source material and build a production-ready architecture. We will cover the system design, technology stack, detailed implementation patterns,",
+      "sha256": "c1e1e44e1813c81c88c1999bc6eb4c8319865c2345272f3c5f4dfd8c1728a159",
+      "chunks": 44
+    }
+  ]
+}

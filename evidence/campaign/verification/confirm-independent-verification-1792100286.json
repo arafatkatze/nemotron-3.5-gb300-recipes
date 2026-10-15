@@ -1,0 +1,12 @@
+{
+  "epoch": 1792100286.7253542,
+  "original_identity_unchanged": true,
+  "original_running": true,
+  "health": 200,
+  "unrelated_unchanged": true,
+  "active_unchanged": true,
+  "best_unchanged": true,
+  "candidate_running": false,
+  "lock_free": true,
+  "service_state": "inactive"
+}

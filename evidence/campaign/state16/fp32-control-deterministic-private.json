@@ -1,0 +1,84 @@
+{
+  "concurrency": 4,
+  "input_tokens": 512,
+  "output_tokens": 128,
+  "requests": 4,
+  "completed_tokens": 512,
+  "wall_seconds": 0.9515745710232295,
+  "aggregate_output_tok_s": 538.0555718817136,
+  "common_decode_tok_s": 1091.0198657426918,
+  "ttft_p50": 0.4900117310171481,
+  "ttft_max": 0.4902314920327626,
+  "latency_p50": 0.9341399040131364,
+  "latency_max": 0.9505716550047509,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 510427.996054481,
+      "first": 510428.48155488,
+      "end": 510428.916758582,
+      "ttft": 0.4855003989650868,
+      "latency": 0.9207041009794921,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Request-Processing Service\n\n## 1. Introduction\n\nIn modern distributed systems, the reliability of a service is not an optional feature\u2014it is a fundamental requirement. A service that records requests, validates inputs, processes jobs, and handles failures forms the backbone of countless applications, from payment processing engines to video transcoding pipelines and IoT telemetry ingestion.\n\nThis tutorial provides a comprehensive, engineering-focused guide to designing such a service. We will move beyond the simple mantra of \"record, validate, process, handle\" and explore the architectural patterns, data models, concurrency strategies, failure modes",
+      "sha256": "dcfdb30538b6bdc4850c87da5ec8548eaa0bf9e67892ff4c3c0eecd72e12e26d",
+      "chunks": 68
+    },
+    {
+      "index": 1,
+      "begin": 510427.99640629,
+      "first": 510428.486637782,
+      "end": 510428.930468018,
+      "ttft": 0.4902314920327626,
+      "latency": 0.9340617280104198,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Component Deep Dive](#component-deep-dive)\n   - 4.1 Request Recording & Ingestion\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling\n5. [Implementation Examples](#implementation-examples)\n   - 5.1 Python",
+      "sha256": "f55fff333ee78bc8114be709aa4acddbfd5ec8a64270bf9bef714d9c6ad42420",
+      "chunks": 69
+    },
+    {
+      "index": 2,
+      "begin": 510427.996602611,
+      "first": 510428.486680566,
+      "end": 510428.947174266,
+      "ttft": 0.49007795500801876,
+      "latency": 0.9505716550047509,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Recording, Input Validation, Job Processing, and Failure Handling\n\n## 1. Introduction\n\nIn modern distributed systems, the reliability of a service is not merely a feature\u2014it is the foundation upon which user trust and system stability are built. A \"reliable service\" is one that can accept work, ensure that work is understood and permissible, execute that work without corrupting state, and gracefully recover when things inevitably go wrong.\n\nThis tutorial provides a comprehensive engineering guide to designing a service that fulfills four core responsibilities:\n1. **Recording Requests:** Durable ingestion of",
+      "sha256": "e8c060d535456154acafac73dbdd0de84ff72cafc81b59a46eb06cf397ba934e",
+      "chunks": 72
+    },
+    {
+      "index": 3,
+      "begin": 510427.996776436,
+      "first": 510428.486721943,
+      "end": 510428.930994516,
+      "ttft": 0.4899455070262775,
+      "latency": 0.934218080015853,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Detailed Component Design](#detailed-component-design)\n   - 4.1 Request Recording & Ingestion\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling & Recovery\n5. [Implementation Examples](#implementation-examples)\n6. [Failure Analysis &",
+      "sha256": "03934ba9ca4f418ea5e3995eb0ebc3b27fdcb24ad4ff03a37581b5ed67489e3b",
+      "chunks": 69
+    }
+  ]
+}

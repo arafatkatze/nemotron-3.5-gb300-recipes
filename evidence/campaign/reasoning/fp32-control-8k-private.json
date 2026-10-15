@@ -1,0 +1,34 @@
+{
+  "concurrency": 1,
+  "thinking_enabled": true,
+  "input_tokens": 8192,
+  "output_tokens": 128,
+  "requests": 1,
+  "completed_tokens": 128,
+  "wall_seconds": 0.4963171790004708,
+  "aggregate_output_tok_s": 257.8995960965489,
+  "common_decode_tok_s": 400.7945072636,
+  "ttft_p50": 0.17894576699472964,
+  "ttft_max": 0.17894576699472964,
+  "latency_p50": 0.49581637699157,
+  "latency_max": 0.49581637699157,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 511784.626627678,
+      "first": 511784.805573445,
+      "end": 511785.122444055,
+      "ttft": 0.17894576699472964,
+      "latency": 0.49581637699157,
+      "usage": {
+        "prompt_tokens": 8192,
+        "total_tokens": 8320,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "The user wants an extended, detailed engineering tutorial on designing a \"reliable service\" based on the provided document. The document is extremely repetitive (the same sentence repeated hundreds of times): \"A reliable service records requests, validates inputs, processes jobs and handles failures.\"\n\nI need to write a comprehensive engineering tutorial (at least 1500 words) covering:\n1. Designing this service\n2. Examples\n3. Failure analysis\n4. Testing\n\nStructure should be:\n- Introduction/Overview\n- Core Requirements (derived from the sentence: record requests, validate inputs, process jobs, handle failures)\n- Architecture/Design\n",
+      "sha256": "8046b9f0dba84a4e7a1ae00714e5d0be926694898f3bcb788e8267bfd9c3a9f0",
+      "chunks": 68
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "arm": "mtp3-server-private.log",
+    "shapes": "((1, 960, 4096), (1, 4096, 131072), (), (), (1, 960, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "mtp3-server-private.log",
+    "shapes": "((1, 768, 4096), (1, 4096, 131072), (), (), (1, 768, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 512, 8192), (1, 8192, 4096), (), (), (1, 512, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 512, 4096), (1, 4096, 4096), (), (), (1, 512, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 256, 4096), (1, 4096, 131072), (), (), (1, 256, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 512, 4096), (1, 4096, 131072), (), (), (1, 512, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 2, 4096), (1, 4096, 18560), (), (), (1, 2, 18560), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 2, 4096), (1, 4096, 131072), (), (), (1, 2, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 1, 4096), (1, 4096, 4608), (), (), (1, 1, 4608), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 1, 4096), (1, 4096, 4096), (), (), (1, 1, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 1, 4096), (1, 4096, 131072), (), (), (1, 1, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 32, 4096), (1, 4096, 18560), (), (), (1, 32, 18560), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 16, 4096), (1, 4096, 4096), (), (), (1, 16, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 8, 4096), (1, 4096, 18560), (), (), (1, 8, 18560), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 8, 4096), (1, 4096, 4608), (), (), (1, 8, 4608), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 4, 4096), (1, 4096, 4096), (), (), (1, 4, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 1537, 4096), (1, 4096, 18560), (), (), (1, 1537, 18560), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 1537, 4096), (1, 4096, 4096), (), (), (1, 1537, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 4, 4096), (1, 4096, 131072), (), (), (1, 4, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 8192, 4096), (1, 4096, 18560), (), (), (1, 8192, 18560), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 8192, 4096), (1, 4096, 4096), (), (), (1, 8192, 4096), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 17, 4096), (1, 4096, 131072), (), (), (1, 17, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 16, 4096), (1, 4096, 131072), (), (), (1, 16, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 33, 4096), (1, 4096, 131072), (), (), (1, 33, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  },
+  {
+    "arm": "baseline-server-private.log",
+    "shapes": "((1, 65, 4096), (1, 4096, 131072), (), (), (1, 65, 131072), (41943040,))",
+    "fallback": "runner=CutlassFp8GemmRunner tactic=-1"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "concurrency": 1,
+  "input_tokens": 8192,
+  "output_tokens": 128,
+  "requests": 1,
+  "completed_tokens": 128,
+  "wall_seconds": 0.8808014790411107,
+  "aggregate_output_tok_s": 145.3221901254615,
+  "common_decode_tok_s": 176.71969489392356,
+  "ttft_p50": 0.16166785499081016,
+  "ttft_max": 0.16166785499081016,
+  "latency_p50": 0.8803200690308586,
+  "latency_max": 0.8803200690308586,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 509141.81102499,
+      "first": 509141.972692845,
+      "end": 509142.691345059,
+      "ttft": 0.16166785499081016,
+      "latency": 0.8803200690308586,
+      "usage": {
+        "prompt_tokens": 8192,
+        "total_tokens": 8320,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Request-Processing Service\n\n## 1. Introduction\n\nIn modern distributed systems, a \"reliable service\" is not merely one that works under ideal conditions; it is one that continues to function correctly, predictably, and safely when things go wrong. The core responsibility of such a service is to manage the lifecycle of a unit of work\u2014from the moment a request arrives at the network boundary to the moment a result is persisted or an error is gracefully surfaced.\n\nThis tutorial provides an extended, detailed engineering guide to designing a service that **records requests, validates inputs, processes jobs,",
+      "sha256": "dbe74792d0868f7a87a7fa6502f61139ea26c3ae9471c6c564d22e9c38775cb8",
+      "chunks": 128
+    }
+  ]
+}

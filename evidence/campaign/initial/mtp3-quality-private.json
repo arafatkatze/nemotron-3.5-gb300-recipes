@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Return only the integer result of 84 * 3 / 2.",
+    "expected": "126",
+    "answer": "126",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-83ccfa985a43b9eb",
+      "object": "chat.completion",
+      "created": 1792095382,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "126",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-ce1e15d4",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 36,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Return only the integer value of sum([1, 2, 3]).",
+    "expected": "6",
+    "answer": "6",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-ba9dcd34044d9263",
+      "object": "chat.completion",
+      "created": 1792095382,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "6",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-ce1e15d4",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 34,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Return only the capital of France.",
+    "expected": "Paris",
+    "answer": "Paris",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-92b5ee93f485d3de",
+      "object": "chat.completion",
+      "created": 1792095382,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Paris",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-ce1e15d4",
+      "usage": {
+        "prompt_tokens": 23,
+        "total_tokens": 25,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Return only the integer result of (17 + 23) * 5.",
+    "expected": "200",
+    "answer": "200",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-a4e89a9c4419da0b",
+      "object": "chat.completion",
+      "created": 1792095382,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "200",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-ce1e15d4",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 38,
+        "completion_tokens": 4,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Return only a JSON array containing 2, 3, 5 in that order.",
+    "expected": "[2,3,5]",
+    "answer": "[2, 3, 5]",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-b6f9530a36bbc2f1",
+      "object": "chat.completion",
+      "created": 1792095382,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[2, 3, 5]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-ce1e15d4",
+      "usage": {
+        "prompt_tokens": 34,
+        "total_tokens": 44,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Return only the lowercase word true if all([True, True]) is true.",
+    "expected": "true",
+    "answer": "true",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-a2051475f8d292f5",
+      "object": "chat.completion",
+      "created": 1792095382,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "true",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-ce1e15d4",
+      "usage": {
+        "prompt_tokens": 32,
+        "total_tokens": 34,
+        "completion_tokens": 2,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  }
+]

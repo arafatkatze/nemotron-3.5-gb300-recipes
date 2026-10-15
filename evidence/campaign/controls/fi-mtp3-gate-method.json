@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "exact_answer_checks": 6,
+  "numerical_checks": 20,
+  "numerical_correct": 16,
+  "qualification": "six exact smoke checks; every control-passing numerical case must remain correct; all errors retained",
+  "prose_identity": "diagnostic only; unoptimized baseline changes wording across batch sizes",
+  "precision": "unchanged official NVFP4 weights, FP32 SSM, FP8 KV"
+}

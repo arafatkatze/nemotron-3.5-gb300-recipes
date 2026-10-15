@@ -1,0 +1,35 @@
+[
+  {
+    "arm": "fast-replay-mtp3",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--use-replayssm",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 3}"
+    ]
+  },
+  {
+    "arm": "fast-replay-mtp1",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--use-replayssm",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 1}"
+    ]
+  },
+  {
+    "arm": "fast-replay-mtp5",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--use-replayssm",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 5}"
+    ]
+  }
+]

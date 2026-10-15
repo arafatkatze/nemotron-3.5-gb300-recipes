@@ -1,0 +1,33 @@
+{
+  "concurrency": 1,
+  "input_tokens": 8192,
+  "output_tokens": 128,
+  "requests": 1,
+  "completed_tokens": 128,
+  "wall_seconds": 0.5248335779760964,
+  "aggregate_output_tok_s": 243.88683455354254,
+  "common_decode_tok_s": 352.94155737733956,
+  "ttft_p50": 0.16450277500553057,
+  "ttft_max": 0.16450277500553057,
+  "latency_p50": 0.5243357199942693,
+  "latency_max": 0.5243357199942693,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 510515.907513605,
+      "first": 510516.07201638,
+      "end": 510516.431849325,
+      "ttft": 0.16450277500553057,
+      "latency": 0.5243357199942693,
+      "usage": {
+        "prompt_tokens": 8192,
+        "total_tokens": 8320,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Request-Processing Service\n\n## 1. Introduction\n\nIn modern distributed systems, reliability is not a feature\u2014it is a prerequisite. A service that ingests requests, validates them, processes the underlying work, and gracefully handles failures must be designed with explicit assumptions about partial failure, network partitions, and resource exhaustion. This tutorial walks through the end-to-end design of a **Reliable Request-Processing Service (RRPS)**. We will cover architecture, component responsibilities, failure modes, observability, testing strategies, and concrete code examples.\n\nThe service\u2019s core contract is simple but demanding",
+      "sha256": "d417952f8fcb2529ee2b811d72df341e5b53f819d9c038ed004c6cc2c5f7fa07",
+      "chunks": 73
+    }
+  ]
+}

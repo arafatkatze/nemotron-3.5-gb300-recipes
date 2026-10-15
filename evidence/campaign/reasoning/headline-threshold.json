@@ -1,0 +1,9 @@
+{
+  "arm": "fp16-sr-mtp1",
+  "values": [
+    11769.115921478764,
+    11838.966120160736,
+    11840.154676826085
+  ],
+  "scope": "NVFP4,512input/512output,HTTP;precision and original workload unmatched"
+}

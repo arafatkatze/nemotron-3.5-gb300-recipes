@@ -1,0 +1,9 @@
+{
+  "arm": "confirmation",
+  "values": [
+    11677.065699250472,
+    11677.90166405365,
+    11759.417870226614
+  ],
+  "scope": "NVFP4,512input/512output,HTTP;precision and original workload unmatched"
+}

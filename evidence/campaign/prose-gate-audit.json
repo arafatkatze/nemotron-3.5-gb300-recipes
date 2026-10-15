@@ -1,0 +1,39 @@
+{
+  "reference_concurrency": 4,
+  "comparisons": [
+    {
+      "concurrency": 1,
+      "matching_prefix_chars": [
+        45
+      ]
+    },
+    {
+      "concurrency": 32,
+      "matching_prefix_chars": [
+        45,
+        128,
+        102,
+        45
+      ]
+    },
+    {
+      "concurrency": 128,
+      "matching_prefix_chars": [
+        45,
+        128,
+        214,
+        45
+      ]
+    },
+    {
+      "concurrency": 256,
+      "matching_prefix_chars": [
+        269,
+        128,
+        214,
+        45
+      ]
+    }
+  ],
+  "finding": "Unoptimized baseline changes prose with batch shape. Exact prose identity is not a valid quality equivalence gate. Replace with exact ground-truth numerical/instruction checks, retain prose diagnostic."
+}

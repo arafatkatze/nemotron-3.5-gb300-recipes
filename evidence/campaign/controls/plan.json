@@ -1,0 +1,53 @@
+[
+  {
+    "arm": "control",
+    "flags": [
+      "--no-async-scheduling"
+    ]
+  },
+  {
+    "arm": "fi-mtp3",
+    "prior_quality": "prior-fi-mtp3-quality.json",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--speculative-config",
+      "{\"method\":\"mtp\",\"num_speculative_tokens\":3}"
+    ]
+  },
+  {
+    "arm": "triton-mtp3",
+    "flags": [
+      "--async-scheduling",
+      "--speculative-config",
+      "{\"method\":\"mtp\",\"num_speculative_tokens\":3}"
+    ]
+  },
+  {
+    "arm": "fi-only",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer"
+    ]
+  },
+  {
+    "arm": "triton-mtp1",
+    "flags": [
+      "--async-scheduling",
+      "--speculative-config",
+      "{\"method\":\"mtp\",\"num_speculative_tokens\":1}"
+    ]
+  },
+  {
+    "arm": "fi-mtp1",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--speculative-config",
+      "{\"method\":\"mtp\",\"num_speculative_tokens\":1}"
+    ]
+  }
+]

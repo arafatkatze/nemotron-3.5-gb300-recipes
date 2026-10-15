@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError('Benchmark or quality regression gate failed: fp16-sr-mtp1')",
+  "epoch": 1792098584.466832
+}

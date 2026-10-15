@@ -1,0 +1,1032 @@
+[
+  {
+    "question": "A buyer purchases 3 items at 137 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 411,
+      "total": 490,
+      "change": 19510
+    },
+    "answer": "{\"items_cost\": 411, \"total\": 490, \"change\": 19510}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-b2bbe56e28ab1aef",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 411, \"total\": 490, \"change\": 19510}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 98,
+        "completion_tokens": 28,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 4 items at 148 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 592,
+      "total": 671,
+      "change": 19329
+    },
+    "answer": "{\"items_cost\": 592, \"total\": 671, \"change\": 19329}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-9d9e928f06189a24",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 592, \"total\": 671, \"change\": 19329}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 98,
+        "completion_tokens": 28,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 5 items at 159 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 795,
+      "total": 874,
+      "change": 19126
+    },
+    "answer": "{\"items_cost\": 795, \"total\": 874, \"change\": 19126}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-9fca743d4a00daff",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 795, \"total\": 874, \"change\": 19126}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 98,
+        "completion_tokens": 28,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 6 items at 170 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 1020,
+      "total": 1099,
+      "change": 18901
+    },
+    "answer": "{\"items_cost\": 1020, \"total\": 1099, \"change\": 18901}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-a62b68e14c8a24d2",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 1020, \"total\": 1099, \"change\": 18901}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 100,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 7 items at 181 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 1267,
+      "total": 1346,
+      "change": 18654
+    },
+    "answer": "{\"items_cost\": 1267, \"total\": 1346, \"change\": 18654}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-85424eb1cc1d4bbb",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 1267, \"total\": 1346, \"change\": 18654}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 100,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 8 items at 192 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 1536,
+      "total": 1615,
+      "change": 18385
+    },
+    "answer": "{\"items_cost\": 1536, \"total\": 1615, \"change\": 18385}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-a01f4e68cc8cca4b",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 1536, \"total\": 1615, \"change\": 18385}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 100,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 9 items at 203 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 1827,
+      "total": 1906,
+      "change": 18094
+    },
+    "answer": "{\"items_cost\": 1827, \"total\": 1906, \"change\": 18094}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-b74d2757eb7b370c",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 1827, \"total\": 1906, \"change\": 18094}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 100,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 10 items at 214 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 2140,
+      "total": 2219,
+      "change": 17781
+    },
+    "answer": "{\"items_cost\": 2140, \"total\": 2219, \"change\": 17781}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-af851dda62bd26ea",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 2140, \"total\": 2219, \"change\": 17781}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 71,
+        "total_tokens": 101,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 11 items at 225 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 2475,
+      "total": 2554,
+      "change": 17446
+    },
+    "answer": "{\"items_cost\": 2475, \"total\": 2554, \"change\": 17446}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-a5e5c991c4f5cb3f",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 2475, \"total\": 2554, \"change\": 17446}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 71,
+        "total_tokens": 101,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 12 items at 236 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 2832,
+      "total": 2911,
+      "change": 17089
+    },
+    "answer": "{\"items_cost\": 2832, \"total\": 2911, \"change\": 17089}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-9a8c7600153ae63d",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 2832, \"total\": 2911, \"change\": 17089}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 71,
+        "total_tokens": 101,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 13 items at 247 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 3211,
+      "total": 3290,
+      "change": 16710
+    },
+    "answer": "{\"items_cost\": 3211, \"total\": 3290, \"change\": 16710}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-91ce3d63e2e51b99",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 3211, \"total\": 3290, \"change\": 16710}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 71,
+        "total_tokens": 101,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "A buyer purchases 14 items at 258 cents each and pays 79 cents for shipping. They hand over 20000 cents. Return only JSON with integer keys items_cost, total, and change. Do not add explanation or markdown.",
+    "expected": {
+      "items_cost": 3612,
+      "total": 3691,
+      "change": 16309
+    },
+    "answer": "{\"items_cost\": 3612, \"total\": 3691, \"change\": 16309}",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-95cffff3a2689dd0",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"items_cost\": 3612, \"total\": 3691, \"change\": 16309}",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 71,
+        "total_tokens": 101,
+        "completion_tokens": 30,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [3, 0, 7, 3, 11] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      9,
+      49,
+      121
+    ],
+    "answer": "[1, 9, 49, 121]",
+    "passed": false,
+    "response": {
+      "id": "chatcmpl-baa64d3b6f7b5f6b",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[1, 9, 49, 121]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 63,
+        "total_tokens": 79,
+        "completion_tokens": 16,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [4, 2, 7, 4, 10] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      49
+    ],
+    "answer": "[16, 49]",
+    "passed": false,
+    "response": {
+      "id": "chatcmpl-b74aa2ef42fbe62e",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[16, 49]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 63,
+        "total_tokens": 72,
+        "completion_tokens": 9,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [5, 4, 7, 5, 9] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      25,
+      49,
+      81
+    ],
+    "answer": "[16, 49, 81]",
+    "passed": false,
+    "response": {
+      "id": "chatcmpl-98f52c60429b55a3",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[16, 49, 81]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 62,
+        "total_tokens": 75,
+        "completion_tokens": 13,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [6, 6, 7, 6, 8] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      49
+    ],
+    "answer": "[49]",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-9cb3e71fff96f0e2",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[49]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 62,
+        "total_tokens": 67,
+        "completion_tokens": 5,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [7, 8, 7, 7, 7] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      49
+    ],
+    "answer": "[49]",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-8d18735f3f5c2bfb",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[49]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 62,
+        "total_tokens": 67,
+        "completion_tokens": 5,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [8, 10, 7, 8, 6] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      49
+    ],
+    "answer": "[49]",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-a4f3ed9a6be4cbf7",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[49]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 63,
+        "total_tokens": 68,
+        "completion_tokens": 5,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [9, 12, 7, 9, 5] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      25,
+      49,
+      81
+    ],
+    "answer": "[25, 49, 81]",
+    "passed": true,
+    "response": {
+      "id": "chatcmpl-934f8b9fa64ddadb",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[25, 49, 81]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 63,
+        "total_tokens": 76,
+        "completion_tokens": 13,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "question": "Evaluate this Python expression exactly: sorted(set(x*x for x in [10, 14, 7, 10, 4] if x%2)). Return only the JSON array result, no explanation or markdown.",
+    "expected": [
+      49
+    ],
+    "answer": "[49, 196]",
+    "passed": false,
+    "response": {
+      "id": "chatcmpl-8382066fbe0e3ded",
+      "object": "chat.completion",
+      "created": 1792097202,
+      "model": "nemotron-3.5-super-vl",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "[49, 196]",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.32.0rc1.dev190+g3f1bcfd82-02d0061c",
+      "usage": {
+        "prompt_tokens": 65,
+        "total_tokens": 75,
+        "completion_tokens": 10,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  }
+]

@@ -52,7 +52,7 @@ Wait until`curl --fail http://127.0.0.1:8015/health` succeeds. The image can spe
 
 ```bash
 # Baseline quality reference and repeated control timings.
-docker exec nemotron35-recipes python /recipe/benchmark.py \
+docker exec nemotron35-recipes python3 /recipe/benchmark.py \
   --arm control --output /results/control
 
 # Stop/remove only the recipe container before changing its configuration.
@@ -60,7 +60,7 @@ docker stop nemotron35-recipes
 docker rm nemotron35-recipes
 bash scripts/start.sh candidate
 # Wait for /health again.
-docker exec nemotron35-recipes python /recipe/benchmark.py \
+docker exec nemotron35-recipes python3 /recipe/benchmark.py \
   --arm candidate --output /results/candidate \
   --reference /results/control/control-quality-reference.json
 
@@ -69,7 +69,7 @@ docker stop nemotron35-recipes
 docker rm nemotron35-recipes
 bash scripts/start.sh candidate
 # Wait for /health again.
-docker exec nemotron35-recipes python /recipe/benchmark.py \
+docker exec nemotron35-recipes python3 /recipe/benchmark.py \
   --arm confirmation --output /results/confirmation \
   --reference /results/control/control-quality-reference.json \
   --concurrencies 256 --check-integrity
@@ -88,9 +88,11 @@ docker rm nemotron35-recipes
 - Each concurrency gets a same-shape warmup excluded from timing. Native MTP1, FlashInfer Mamba, CUDA graphs, async scheduling, OMP=1, FP8 KV, and prefix caching disabled in both arms.
 - Aggregate output tok/s = total returned completion tokens / wall time from shared batch release to last completion, including prefill and local HTTP/client overhead. Common-decode rate is separately retained in evidence; do not substitute it for the HTTP headline.
 - Client overlap establishes simultaneous requests, not 256 independent GPU kernels.
-- Per-request synthetic prompts, responses and timings are saved locally in ignored`runs/`. Only selected summaries from the original campaign are distributed here.
+- Per-request synthetic prompts, responses and timings are saved locally in ignored`runs/`. Original campaign raw synthetic results are distributed separately under `evidence/campaign/`, alongside the selected summaries.
 
 ## Artifacts and provenance
+
+- [`evidence/campaign/`](evidence/campaign/): original measured benchmark sources, all available trial summaries, raw synthetic per-request outputs/timings, quality responses, rejected-trial evidence and independent restoration checks; hash-indexed and compressed where useful.
 
 - [`evidence/measurements.json`](evidence/measurements.json): original campaign summary snapshots, including earlier single-stream probe.
 - [`evidence/derived-metrics.json`](evidence/derived-metrics.json): pooled-throughput calculations.

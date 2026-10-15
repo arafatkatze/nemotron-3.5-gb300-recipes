@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "fast-native-mtp3",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 3}"
+    ]
+  },
+  {
+    "arm": "fast-native-mtp1",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 1}"
+    ]
+  },
+  {
+    "arm": "fast-native-mtp5",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--speculative-config",
+      "{\"method\": \"mtp\", \"num_speculative_tokens\": 5}"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "concurrency": 1,
+  "input_tokens": 8192,
+  "output_tokens": 128,
+  "requests": 1,
+  "completed_tokens": 128,
+  "wall_seconds": 0.5248335779760964,
+  "aggregate_output_tok_s": 243.88683455354254,
+  "common_decode_tok_s": 352.94155737733956,
+  "ttft_p50": 0.16450277500553057,
+  "ttft_max": 0.16450277500553057,
+  "latency_p50": 0.5243357199942693,
+  "latency_max": 0.5243357199942693
+}

@@ -1,0 +1,835 @@
+[
+  {
+    "source": "benchmark.py",
+    "published": "evidence/campaign/initial/benchmark.py",
+    "source_bytes": 6219,
+    "source_sha256": "9389e7e4e1c237b77f1653ca1fadb6ad2f214e31fb6623ca7d79cab7ebeb9512",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/baseline-8k-private.json",
+    "published": "evidence/campaign/initial/baseline-8k-private.json",
+    "source_bytes": 1539,
+    "source_sha256": "21bf866c1d50c1f3974aebec0d6d6b3747c192833430773a6cc941c9d0781c23",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/baseline-8k-summary.json",
+    "published": "evidence/campaign/initial/baseline-8k-summary.json",
+    "source_bytes": 389,
+    "source_sha256": "028e422023dc05ca9df71ed5b4c2c3030c657d487dbf522e46a8bb1f938acc86",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/initial/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/baseline-measurements-private.json",
+    "published": "evidence/campaign/initial/baseline-measurements-private.json.gz",
+    "source_bytes": 2405433,
+    "source_sha256": "b955cbacf0b06692e0f38a222c8ea10aa3e553545c6de8f49b99b0692f360269",
+    "encoding": "gzip"
+  },
+  {
+    "source": "results/baseline-quality-private.json",
+    "published": "evidence/campaign/initial/baseline-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "08ea944e5a51044fa656663b3dfb35f81ba34471db659bcc2d0bd9cd12fe3317",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/baseline-summary.json",
+    "published": "evidence/campaign/initial/baseline-summary.json",
+    "source_bytes": 3479,
+    "source_sha256": "16eea8e228607e3d43e637f37e87a324073d8086a2daf4b861605fec56dcf866",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/mtp3-deterministic-private.json",
+    "published": "evidence/campaign/initial/mtp3-deterministic-private.json",
+    "source_bytes": 4505,
+    "source_sha256": "9c745f8ea9764726113b42f62a3be0c0f3c29f34ec35ab45e0218cc6f4d9a66d",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/mtp3-equivalence.json",
+    "published": "evidence/campaign/initial/mtp3-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "results/mtp3-quality-private.json",
+    "published": "evidence/campaign/initial/mtp3-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "fc4181513b51ff3e9eabb0de47c58d6effe0b8538ff472af079c525c2b83437f",
+    "encoding": "identity"
+  },
+  {
+    "source": "fastpath/benchmark.py",
+    "published": "evidence/campaign/fastpath/benchmark.py",
+    "source_bytes": 8107,
+    "source_sha256": "4a641ec328e6dbd53c6385994cd013f5de001183eefaa2f8ba404e8aebbc0d5d",
+    "encoding": "identity"
+  },
+  {
+    "source": "fastpath/plan.json",
+    "published": "evidence/campaign/fastpath/plan.json",
+    "source_bytes": 752,
+    "source_sha256": "d9ceeb7d0107bcfac20b17237b4efc58c78a4e247531a588b1caa0194b076771",
+    "encoding": "identity"
+  },
+  {
+    "source": "fastpath/results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/fastpath/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/benchmark.py",
+    "published": "evidence/campaign/native/benchmark.py",
+    "source_bytes": 8107,
+    "source_sha256": "4a641ec328e6dbd53c6385994cd013f5de001183eefaa2f8ba404e8aebbc0d5d",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/plan.json",
+    "published": "evidence/campaign/native/plan.json",
+    "source_bytes": 677,
+    "source_sha256": "0ea3248bd4f3a4901d61d2eafaf2c0bc7ede0ac2ccec4dbb5ececfec4a5d91ac",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/native/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/results/fast-native-mtp3-deterministic-private.json",
+    "published": "evidence/campaign/native/fast-native-mtp3-deterministic-private.json",
+    "source_bytes": 4728,
+    "source_sha256": "73e22ce8359386382f44b343c9f2ce0e7d96e468fa39a17877d5d25dd4b39032",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/results/fast-native-mtp3-equivalence.json",
+    "published": "evidence/campaign/native/fast-native-mtp3-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/results/fast-native-mtp3-numerical-quality-private.json",
+    "published": "evidence/campaign/native/fast-native-mtp3-numerical-quality-private.json",
+    "source_bytes": 31265,
+    "source_sha256": "7b2a76247ae2dc0febe8c2c4e1cb5f6e8208d713552b325270aa45cab027326e",
+    "encoding": "identity"
+  },
+  {
+    "source": "native/results/fast-native-mtp3-quality-private.json",
+    "published": "evidence/campaign/native/fast-native-mtp3-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "c670727f4933647d8ed27d62d66428bd825e05106c820bee1bd49190cf28df8c",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/benchmark.py",
+    "published": "evidence/campaign/controls/benchmark.py",
+    "source_bytes": 8773,
+    "source_sha256": "dc64bc296b0b34789cb8033800420b008ba8cf6b8a5db6c6b20d781b0ff2e42a",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/plan.json",
+    "published": "evidence/campaign/controls/plan.json",
+    "source_bytes": 1029,
+    "source_sha256": "e509006aab7c2ff1a517bade4e4c22b4cdede666c90338e1ae02e062dd58f235",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/controls/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-8k-private.json",
+    "published": "evidence/campaign/controls/control-8k-private.json",
+    "source_bytes": 1538,
+    "source_sha256": "fd68cf0ae9da1c51ead8eb3cc7c35482906f346a8cb46f480ef6896ef189ca23",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-8k-summary.json",
+    "published": "evidence/campaign/controls/control-8k-summary.json",
+    "source_bytes": 388,
+    "source_sha256": "7ea76fb03ac14be1cd1db35285bff3c35dadad84163815025316a2ce5676431e",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-deterministic-private.json",
+    "published": "evidence/campaign/controls/control-deterministic-private.json",
+    "source_bytes": 4480,
+    "source_sha256": "d2bc4d85bf35c51e72d391a7a529e731a1db22c63d4fa272603eaabb7fa5cc7f",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-equivalence.json",
+    "published": "evidence/campaign/controls/control-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-gate-method.json",
+    "published": "evidence/campaign/controls/control-gate-method.json",
+    "source_bytes": 388,
+    "source_sha256": "ddbf69024e58db07a067c8cbd9f1aff2f38f78271190833d81c27e5148c43d3e",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-measurements-private.json",
+    "published": "evidence/campaign/controls/control-measurements-private.json.gz",
+    "source_bytes": 3311216,
+    "source_sha256": "6584206e331f890595ee820aa103d15f6ddadf2b381cd75ed366f75ec0bde7bb",
+    "encoding": "gzip"
+  },
+  {
+    "source": "controls/results/control-numerical-quality-private.json",
+    "published": "evidence/campaign/controls/control-numerical-quality-private.json",
+    "source_bytes": 31276,
+    "source_sha256": "282a7cce405ba90980cf5cc12dbdc266feda30ab696f320ddc1d6c067da00db0",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-quality-private.json",
+    "published": "evidence/campaign/controls/control-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "9a54cd7963cf2bde747996193b662e3c93bf965966f8b405a7248bf30313fe8c",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-quality-reference.json",
+    "published": "evidence/campaign/controls/control-quality-reference.json",
+    "source_bytes": 31276,
+    "source_sha256": "282a7cce405ba90980cf5cc12dbdc266feda30ab696f320ddc1d6c067da00db0",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/control-summary.json",
+    "published": "evidence/campaign/controls/control-summary.json",
+    "source_bytes": 2621,
+    "source_sha256": "20512cda600cd3071ba41c0663461595e630ef1d013eec5c5c39a0c0f2829494",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-deterministic-private.json",
+    "published": "evidence/campaign/controls/fi-mtp3-deterministic-private.json",
+    "source_bytes": 4728,
+    "source_sha256": "5fca6589bd85f3a6682a4aff9f0ad2a9d7409a1db12b9c6bab16ec132c9d2a35",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-equivalence.json",
+    "published": "evidence/campaign/controls/fi-mtp3-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-gate-method.json",
+    "published": "evidence/campaign/controls/fi-mtp3-gate-method.json",
+    "source_bytes": 388,
+    "source_sha256": "ddbf69024e58db07a067c8cbd9f1aff2f38f78271190833d81c27e5148c43d3e",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-measurements-private.json",
+    "published": "evidence/campaign/controls/fi-mtp3-measurements-private.json.gz",
+    "source_bytes": 2587364,
+    "source_sha256": "1edaa6dec2adf1c52e2fdb26c184322709ee3697e6ffe803fa925f5e356d7e7d",
+    "encoding": "gzip"
+  },
+  {
+    "source": "controls/results/fi-mtp3-numerical-quality-private.json",
+    "published": "evidence/campaign/controls/fi-mtp3-numerical-quality-private.json",
+    "source_bytes": 31265,
+    "source_sha256": "f74e99fbb80033e95a3cf2d7ea8b43a720f40699f2efad3cc4e6c930ee713788",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-quality-comparison.json",
+    "published": "evidence/campaign/controls/fi-mtp3-quality-comparison.json",
+    "source_bytes": 100,
+    "source_sha256": "1c5c721e8fdf9e3da93ea0a8799a0a33a16dd9d9ebe4865712bf6b64da8e11a0",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-quality-private.json",
+    "published": "evidence/campaign/controls/fi-mtp3-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "8f33df54ab57cc49e15ccff7eaf3ea41c07067bff56672a38968782e06009ba6",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-rejected.json",
+    "published": "evidence/campaign/controls/fi-mtp3-rejected.json",
+    "source_bytes": 118,
+    "source_sha256": "505a0ebdf52c534fc9205ab4bb081d98c1cda386a562c1dece47afe8c4f49610",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/fi-mtp3-summary.json",
+    "published": "evidence/campaign/controls/fi-mtp3-summary.json",
+    "source_bytes": 2177,
+    "source_sha256": "65857901fec84e5b3ccee3e2b2abde392151395e3d5f3631033aa4e79e0ffe04",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-8k-private.json",
+    "published": "evidence/campaign/controls/triton-mtp3-8k-private.json",
+    "source_bytes": 1382,
+    "source_sha256": "c570ff06875a0cea313c54a9da15cead3b601f667b88e6f08b0defcead5af6f2",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-8k-summary.json",
+    "published": "evidence/campaign/controls/triton-mtp3-8k-summary.json",
+    "source_bytes": 390,
+    "source_sha256": "7970264351a721bb61afaf398c136e826ba05ac2ca6200c936e3f6ed45c9733b",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-deterministic-private.json",
+    "published": "evidence/campaign/controls/triton-mtp3-deterministic-private.json",
+    "source_bytes": 4700,
+    "source_sha256": "71072aa97441081cb87df47fd1d68938bbc8cc234055d98c652837ee89e8c38b",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-equivalence.json",
+    "published": "evidence/campaign/controls/triton-mtp3-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-gate-method.json",
+    "published": "evidence/campaign/controls/triton-mtp3-gate-method.json",
+    "source_bytes": 388,
+    "source_sha256": "ddbf69024e58db07a067c8cbd9f1aff2f38f78271190833d81c27e5148c43d3e",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-measurements-private.json",
+    "published": "evidence/campaign/controls/triton-mtp3-measurements-private.json.gz",
+    "source_bytes": 3329980,
+    "source_sha256": "305edc132d2566b414bdc98f90b3b4d214fabeaa5b01f4ab31c30b2bb1803642",
+    "encoding": "gzip"
+  },
+  {
+    "source": "controls/results/triton-mtp3-numerical-quality-private.json",
+    "published": "evidence/campaign/controls/triton-mtp3-numerical-quality-private.json",
+    "source_bytes": 31257,
+    "source_sha256": "074fb73a1ba2862aa483489d48e46f7be25b3d47236cecb56003593926cf6128",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-quality-comparison.json",
+    "published": "evidence/campaign/controls/triton-mtp3-quality-comparison.json",
+    "source_bytes": 100,
+    "source_sha256": "1c5c721e8fdf9e3da93ea0a8799a0a33a16dd9d9ebe4865712bf6b64da8e11a0",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-quality-private.json",
+    "published": "evidence/campaign/controls/triton-mtp3-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "8256b456cdeab8151dce87e787a20c086b9a7d6cde7ac1bee1a1304cd099aed0",
+    "encoding": "identity"
+  },
+  {
+    "source": "controls/results/triton-mtp3-summary.json",
+    "published": "evidence/campaign/controls/triton-mtp3-summary.json",
+    "source_bytes": 2613,
+    "source_sha256": "19958ca395ebfd954e7039b41b697a9e3488a687377e46f7bf1d2e37fe7f654d",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/benchmark.py",
+    "published": "evidence/campaign/state16/benchmark.py",
+    "source_bytes": 9662,
+    "source_sha256": "8bc010373eade5280a20f8b0ae57b9809ca4768d97685026a8ba34ed10024dd8",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/plan.json",
+    "published": "evidence/campaign/state16/plan.json",
+    "source_bytes": 1297,
+    "source_sha256": "060b1fb2cd3c6d9d01582f10a8763d2178e4f8c31ff127a38344d9353734bad3",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/state16/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/control-quality-reference.json",
+    "published": "evidence/campaign/state16/control-quality-reference.json.gz",
+    "source_bytes": 476023,
+    "source_sha256": "070d3d9db04bedb7d19f33a855c389f3d7b11812d7c32c3ae223b4a295ed659c",
+    "encoding": "gzip"
+  },
+  {
+    "source": "state16/results/fp16-sr-mtp1-deterministic-private.json",
+    "published": "evidence/campaign/state16/fp16-sr-mtp1-deterministic-private.json",
+    "source_bytes": 4447,
+    "source_sha256": "503f69a45575690ddcc9b90ff2cc22aed73248292e7d85b779ff08d90de39365",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp16-sr-mtp1-equivalence.json",
+    "published": "evidence/campaign/state16/fp16-sr-mtp1-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp16-sr-mtp1-numerical-quality-private.json",
+    "published": "evidence/campaign/state16/fp16-sr-mtp1-numerical-quality-private.json.gz",
+    "source_bytes": 476013,
+    "source_sha256": "9124c0f382232875b04d60f36e9de52d4db5086aca2b318096543de2b314ff90",
+    "encoding": "gzip"
+  },
+  {
+    "source": "state16/results/fp16-sr-mtp1-quality-comparison.json",
+    "published": "evidence/campaign/state16/fp16-sr-mtp1-quality-comparison.json",
+    "source_bytes": 135,
+    "source_sha256": "7540dd30cbe8fcc890659ddd9ecf4eab61b00b0be6bcae195f7f66370c84958f",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp16-sr-mtp1-quality-private.json",
+    "published": "evidence/campaign/state16/fp16-sr-mtp1-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "c65ff72e58445b1304c8b606166afb5e13c92f5b5c6eaf7fcb8dfa9abcb0adb1",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp16-sr-mtp1-rejected.json",
+    "published": "evidence/campaign/state16/fp16-sr-mtp1-rejected.json",
+    "source_bytes": 122,
+    "source_sha256": "9b9ea399e01b0ea830484a8c3b8002ddcea256de43f69fd774e4b2c37d7f9c78",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-8k-private.json",
+    "published": "evidence/campaign/state16/fp32-control-8k-private.json",
+    "source_bytes": 1574,
+    "source_sha256": "4184512020a943c362b1cdf53c056f000955a40f5a76c8ec07d0bbc7d3cb3045",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-8k-summary.json",
+    "published": "evidence/campaign/state16/fp32-control-8k-summary.json",
+    "source_bytes": 389,
+    "source_sha256": "8254d4940c40498ed1795a18f746dabb9fbe7255071c4ef3e5238d9894ca9705",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-deterministic-private.json",
+    "published": "evidence/campaign/state16/fp32-control-deterministic-private.json",
+    "source_bytes": 4711,
+    "source_sha256": "614ee24b3f1ceb6699f681f89296b18bae9d5a8b7c1870b697c16b9e24d2133a",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-equivalence.json",
+    "published": "evidence/campaign/state16/fp32-control-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-gate-method.json",
+    "published": "evidence/campaign/state16/fp32-control-gate-method.json",
+    "source_bytes": 505,
+    "source_sha256": "07f4793a17785c5092452537e955381660321a0e214a97aca3f09342546c7508",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-measurements-private.json",
+    "published": "evidence/campaign/state16/fp32-control-measurements-private.json.gz",
+    "source_bytes": 3291856,
+    "source_sha256": "e65da84292daf478bd7ab391c32127bf59caa06c8974ca7713871a167b4726e1",
+    "encoding": "gzip"
+  },
+  {
+    "source": "state16/results/fp32-control-numerical-quality-private.json",
+    "published": "evidence/campaign/state16/fp32-control-numerical-quality-private.json.gz",
+    "source_bytes": 476023,
+    "source_sha256": "070d3d9db04bedb7d19f33a855c389f3d7b11812d7c32c3ae223b4a295ed659c",
+    "encoding": "gzip"
+  },
+  {
+    "source": "state16/results/fp32-control-quality-comparison.json",
+    "published": "evidence/campaign/state16/fp32-control-quality-comparison.json",
+    "source_bytes": 125,
+    "source_sha256": "a810e59d0ca6becc4ee8ea7a64f38cce342b2e966d62a0bd79e13680d5bbf80d",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-quality-private.json",
+    "published": "evidence/campaign/state16/fp32-control-quality-private.json",
+    "source_bytes": 7862,
+    "source_sha256": "a8cd7aaa599690c3110830839ea8613a4d202a15f597bfdf1278b430e0a05191",
+    "encoding": "identity"
+  },
+  {
+    "source": "state16/results/fp32-control-summary.json",
+    "published": "evidence/campaign/state16/fp32-control-summary.json",
+    "source_bytes": 2608,
+    "source_sha256": "349a13105ea4e99e3a25e88bf1226d02e6c3bc98c15efdb14e2bcaf8536c567e",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/benchmark.py",
+    "published": "evidence/campaign/reasoning/benchmark.py",
+    "source_bytes": 9705,
+    "source_sha256": "073b8a5b77038d3910fd99c54c060826671a80581c90d31cc469d86c2ff3b66a",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/plan.json",
+    "published": "evidence/campaign/reasoning/plan.json",
+    "source_bytes": 1297,
+    "source_sha256": "060b1fb2cd3c6d9d01582f10a8763d2178e4f8c31ff127a38344d9353734bad3",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/reasoning/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/control-quality-reference.json",
+    "published": "evidence/campaign/reasoning/control-quality-reference.json.gz",
+    "source_bytes": 514389,
+    "source_sha256": "0d8a40fe09e7f08298333d47c62ec4c329004999bbf94094076c4e1de7027eec",
+    "encoding": "gzip"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-8k-private.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-8k-private.json",
+    "source_bytes": 1543,
+    "source_sha256": "010a91e856a3c9754ade5459759b6d9b2b4312e8d66b5adc23aec207abff8cbd",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-8k-summary.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-8k-summary.json",
+    "source_bytes": 415,
+    "source_sha256": "b14be248ff6975f918c6bcb9f592fd9103a916a9e1514ef0fad12b52476b3cbf",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-deterministic-private.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-deterministic-private.json",
+    "source_bytes": 4833,
+    "source_sha256": "39254969e28a3b38d5b2dcdff263d870505a353afec0e6f8e49f09eac5fbc5f4",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-equivalence.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-gate-method.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-gate-method.json",
+    "source_bytes": 533,
+    "source_sha256": "6c6960ea3bee191cbf88f2a882631b499e68fe07a16da0258be317f856593a06",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-measurements-private.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-measurements-private.json.gz",
+    "source_bytes": 3167738,
+    "source_sha256": "9130e0ca9e4c9f5fc798fb2f453b112786e827ca4b7ff3e7ddc88417861b85fd",
+    "encoding": "gzip"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-numerical-quality-private.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-numerical-quality-private.json.gz",
+    "source_bytes": 513983,
+    "source_sha256": "54ce3d75e16b0c00267bcf248eb85d4e5b3817784e33cd9c5d6d7705dd6d4246",
+    "encoding": "gzip"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-quality-comparison.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-quality-comparison.json",
+    "source_bytes": 125,
+    "source_sha256": "0c7b394930be534cf5a4d032374ba7078891b96677f75ff0c5dd79c96a1cce49",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-quality-private.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-quality-private.json",
+    "source_bytes": 8984,
+    "source_sha256": "5fea8588842fea32c777d81e2f921cd8359ed448c58adb52287beb3cc749bf8f",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp16-sr-mtp1-summary.json",
+    "published": "evidence/campaign/reasoning/fp16-sr-mtp1-summary.json",
+    "source_bytes": 2794,
+    "source_sha256": "228fac13420b8df8c64f49cf3af28f874578036a6ea80a5f501bad984e7ad614",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-8k-private.json",
+    "published": "evidence/campaign/reasoning/fp32-control-8k-private.json",
+    "source_bytes": 1544,
+    "source_sha256": "6c07d1481fc0fd72a2e091aa4bf88ecece03d108d7ed04098cef0297f5de1e09",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-8k-summary.json",
+    "published": "evidence/campaign/reasoning/fp32-control-8k-summary.json",
+    "source_bytes": 408,
+    "source_sha256": "0b23111f6720874f1b912661fef09656fe9a5436174b787268bb85af44c7be26",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-deterministic-private.json",
+    "published": "evidence/campaign/reasoning/fp32-control-deterministic-private.json",
+    "source_bytes": 4846,
+    "source_sha256": "b090ada88a431022f6aa93c671c3e7f973c582e0afacb866d2f4c937ef326cfa",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-equivalence.json",
+    "published": "evidence/campaign/reasoning/fp32-control-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-gate-method.json",
+    "published": "evidence/campaign/reasoning/fp32-control-gate-method.json",
+    "source_bytes": 533,
+    "source_sha256": "6c6960ea3bee191cbf88f2a882631b499e68fe07a16da0258be317f856593a06",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-measurements-private.json",
+    "published": "evidence/campaign/reasoning/fp32-control-measurements-private.json.gz",
+    "source_bytes": 3170190,
+    "source_sha256": "e9c40d5c568529445d4430273a7d509b462136a8d835546d927abcccf2e75f4a",
+    "encoding": "gzip"
+  },
+  {
+    "source": "reasoning/results/fp32-control-numerical-quality-private.json",
+    "published": "evidence/campaign/reasoning/fp32-control-numerical-quality-private.json.gz",
+    "source_bytes": 514389,
+    "source_sha256": "0d8a40fe09e7f08298333d47c62ec4c329004999bbf94094076c4e1de7027eec",
+    "encoding": "gzip"
+  },
+  {
+    "source": "reasoning/results/fp32-control-quality-comparison.json",
+    "published": "evidence/campaign/reasoning/fp32-control-quality-comparison.json",
+    "source_bytes": 125,
+    "source_sha256": "399116ebd327c5d8b000d81d194b0637f0d9b362bab944b0f8e997086613dd97",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-quality-private.json",
+    "published": "evidence/campaign/reasoning/fp32-control-quality-private.json",
+    "source_bytes": 9168,
+    "source_sha256": "a48c736676adc8265f6299d2966c3bd6c4cb12889efe842ed8864c723d95529b",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/fp32-control-summary.json",
+    "published": "evidence/campaign/reasoning/fp32-control-summary.json",
+    "source_bytes": 2791,
+    "source_sha256": "a8a185f8c05549c5201bd2ac0339c038bd47d165172f3add48fab7ce23665782",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/results/headline-threshold.json",
+    "published": "evidence/campaign/reasoning/headline-threshold.json",
+    "source_bytes": 203,
+    "source_sha256": "d2112fa605b088bf112bcf2fcbc9bf8fec56bb4e633ea7add3b53aab07b4e153",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/benchmark.py",
+    "published": "evidence/campaign/confirmation/benchmark.py",
+    "source_bytes": 11171,
+    "source_sha256": "630f288868681059cf691ae06b52c8b8e621507ddc23b6fbc38e694bb5b845b9",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/plan.json",
+    "published": "evidence/campaign/confirmation/plan.json",
+    "source_bytes": 348,
+    "source_sha256": "0ee31480665d2cd4858d791960d75e7f837a49f667208a0b937172f7c856b3a8",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/baseline-deterministic-private.json",
+    "published": "evidence/campaign/confirmation/baseline-deterministic-private.json",
+    "source_bytes": 4502,
+    "source_sha256": "9f7786a7f97021a7ec6d95327213562296eded772e7e4065048ceca80a1ef15a",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-8k-private.json",
+    "published": "evidence/campaign/confirmation/confirmation-8k-private.json",
+    "source_bytes": 1546,
+    "source_sha256": "41ad5ec52c26c6bd17f511a4ebfdf11efb80164d54ead0940624255acef53a81",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-8k-summary.json",
+    "published": "evidence/campaign/confirmation/confirmation-8k-summary.json",
+    "source_bytes": 419,
+    "source_sha256": "1dadaf06b1f0529efa70e812feb7b25826550ae4e116ed7150bf7f278566c1c9",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-deterministic-private.json",
+    "published": "evidence/campaign/confirmation/confirmation-deterministic-private.json",
+    "source_bytes": 4834,
+    "source_sha256": "011250d55502ed3ca2ac4d6b295e8d294cee259fcbfea4b75f8e63274a69f669",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-equivalence.json",
+    "published": "evidence/campaign/confirmation/confirmation-equivalence.json",
+    "source_bytes": 98,
+    "source_sha256": "377c93d42a8d5776c4cd00aa881582f0d5c2e8051241f2cc170bd2d32e31f887",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-gate-method.json",
+    "published": "evidence/campaign/confirmation/confirmation-gate-method.json",
+    "source_bytes": 533,
+    "source_sha256": "6c6960ea3bee191cbf88f2a882631b499e68fe07a16da0258be317f856593a06",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-measurements-private.json",
+    "published": "evidence/campaign/confirmation/confirmation-measurements-private.json.gz",
+    "source_bytes": 2109405,
+    "source_sha256": "08d07ab00e0575ef40c6cc9058648f74edd3bf3b61d29968c5f78b4b41454d54",
+    "encoding": "gzip"
+  },
+  {
+    "source": "confirm/results/confirmation-numerical-quality-private.json",
+    "published": "evidence/campaign/confirmation/confirmation-numerical-quality-private.json.gz",
+    "source_bytes": 513983,
+    "source_sha256": "90fb9dd9ef46bfe26744cb594d7ab8a9dda3f5d33ee4e3881e26cfe23723bd7a",
+    "encoding": "gzip"
+  },
+  {
+    "source": "confirm/results/confirmation-parallel-integrity-private.json",
+    "published": "evidence/campaign/confirmation/confirmation-parallel-integrity-private.json.gz",
+    "source_bytes": 97872,
+    "source_sha256": "524aa155287110029e40fe8ca5e1d05919b0c9e15e4807583c4400a495759e7e",
+    "encoding": "gzip"
+  },
+  {
+    "source": "confirm/results/confirmation-parallel-integrity-summary.json",
+    "published": "evidence/campaign/confirmation/confirmation-parallel-integrity-summary.json",
+    "source_bytes": 69,
+    "source_sha256": "744786f5284700d015bad5b03dd36a2acd1f3558c810eb33acc47ef447bdb77c",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-quality-comparison.json",
+    "published": "evidence/campaign/confirmation/confirmation-quality-comparison.json",
+    "source_bytes": 125,
+    "source_sha256": "0c7b394930be534cf5a4d032374ba7078891b96677f75ff0c5dd79c96a1cce49",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-quality-private.json",
+    "published": "evidence/campaign/confirmation/confirmation-quality-private.json",
+    "source_bytes": 8984,
+    "source_sha256": "95f21f67ea7cd8e0319ea5519c5c9193a57600a32ad5401917e9036770a7dc6a",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/confirmation-summary.json",
+    "published": "evidence/campaign/confirmation/confirmation-summary.json",
+    "source_bytes": 1406,
+    "source_sha256": "f393775098c242c7ba1ebf368accb43d1be5af8deaf2aea55d075ffc6959cbb7",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/results/control-quality-reference.json",
+    "published": "evidence/campaign/confirmation/control-quality-reference.json.gz",
+    "source_bytes": 514389,
+    "source_sha256": "0d8a40fe09e7f08298333d47c62ec4c329004999bbf94094076c4e1de7027eec",
+    "encoding": "gzip"
+  },
+  {
+    "source": "confirm/results/headline-threshold.json",
+    "published": "evidence/campaign/confirmation/headline-threshold.json",
+    "source_bytes": 202,
+    "source_sha256": "0c96a1c1d74a036ddf7d6841bafcc1324c1c8ab4647562d9ae6697e1997d296f",
+    "encoding": "identity"
+  },
+  {
+    "source": "comparison-contract.json",
+    "published": "evidence/campaign/comparison-contract.json",
+    "source_bytes": 1128,
+    "source_sha256": "cf43e2ce804e86769eed1f8c05ab0741524f1e75d3e49dc2ddd0c1a51f1ef587",
+    "encoding": "identity"
+  },
+  {
+    "source": "prose-gate-audit.json",
+    "published": "evidence/campaign/prose-gate-audit.json",
+    "source_bytes": 749,
+    "source_sha256": "7033655e643457dc61e392e2984ef9658846724b433caaa0999b019fc091601e",
+    "encoding": "identity"
+  },
+  {
+    "source": "autotune-shape-gaps.json",
+    "published": "evidence/campaign/autotune-shape-gaps.json",
+    "source_bytes": 4883,
+    "source_sha256": "046653f4ddaa05c1da2b93f935e9196e424ab95156b1593da274bbfe3287b250",
+    "encoding": "identity"
+  },
+  {
+    "source": "reasoning/independent-verification-1792099830.json",
+    "published": "evidence/campaign/verification/reasoning-independent-verification-1792099830.json",
+    "source_bytes": 284,
+    "source_sha256": "c66c38305c66130892249c69fc3b8d68cc634992ec05c35687984fdf1346b6c3",
+    "encoding": "identity"
+  },
+  {
+    "source": "confirm/independent-verification-1792100286.json",
+    "published": "evidence/campaign/verification/confirm-independent-verification-1792100286.json",
+    "source_bytes": 284,
+    "source_sha256": "42d45ddf934409b86ad324e465f9619157f06e3ea1a537b96513b1fe1140eecd",
+    "encoding": "identity"
+  }
+]

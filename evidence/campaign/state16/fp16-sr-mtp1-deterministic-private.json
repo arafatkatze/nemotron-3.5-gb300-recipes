@@ -1,0 +1,84 @@
+{
+  "concurrency": 4,
+  "input_tokens": 512,
+  "output_tokens": 128,
+  "requests": 4,
+  "completed_tokens": 512,
+  "wall_seconds": 0.92821174999699,
+  "aggregate_output_tok_s": 551.5982748566373,
+  "common_decode_tok_s": 1150.0151188655773,
+  "ttft_p50": 0.49069460295140743,
+  "ttft_max": 0.4909090360160917,
+  "latency_p50": 0.9151045774924569,
+  "latency_max": 0.9273745940299705,
+  "rows": [
+    {
+      "index": 0,
+      "begin": 511004.611014405,
+      "first": 511005.096994493,
+      "end": 511005.523713805,
+      "ttft": 0.48598008800763637,
+      "latency": 0.9126994000398554,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Request-Processing Service\n\n## Table of Contents\n1. [Executive Summary](#executive-summary)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Component Deep Dive](#component-deep-dive)\n   - 4.1 Request Recording & Ingestion\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling & Recovery\n5. [Implementation Guide (Python/Go Examples",
+      "sha256": "403b31ba11e2f654a264561006c28b9226ef4c5fbede91d6ce84778c544f0825",
+      "chunks": 70
+    },
+    {
+      "index": 1,
+      "begin": 511004.611353222,
+      "first": 511005.102262258,
+      "end": 511005.538727816,
+      "ttft": 0.4909090360160917,
+      "latency": 0.9273745940299705,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## 1. Introduction\n\nIn modern distributed systems, the definition of \"reliability\" extends far beyond simple uptime. A reliable service is one that guarantees data integrity, maintains consistency under load, recovers gracefully from failures, and provides observable behavior to operators and clients.\n\nThe core requirement for the service described in this tutorial is a four-stage pipeline:\n1. **Record Requests:** Persist the intent of a client action before any work begins.\n2. **Validate Inputs:** Ensure the request is well-formed, authorized, and processable.\n3",
+      "sha256": "b1ae6956b4eb17c0bb672779b5f5963a4a0ccb3fb8ba07ce4e764f2f62a96b8f",
+      "chunks": 72
+    },
+    {
+      "index": 2,
+      "begin": 511004.611548071,
+      "first": 511005.102308178,
+      "end": 511005.510369784,
+      "ttft": 0.4907601069426164,
+      "latency": 0.8988217129954137,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Pillars of Reliability](#core-pillars-of-reliability)\n3. [Architectural Overview](#architectural-overview)\n4. [Detailed Component Design](#detailed-component-design)\n   - 4.1 Request Recording & Ingestion\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling & Recovery\n5. [Failure Analysis & Resilience Patterns](#failure-analysis--res",
+      "sha256": "5a666d323fe1050228c5bb950f5db75ecdd3e848c3c4d03fb3b58b4d7e0d9f90",
+      "chunks": 67
+    },
+    {
+      "index": 3,
+      "begin": 511004.611720135,
+      "first": 511005.102349234,
+      "end": 511005.52922989,
+      "ttft": 0.49062909896019846,
+      "latency": 0.9175097549450584,
+      "usage": {
+        "prompt_tokens": 512,
+        "total_tokens": 640,
+        "completion_tokens": 128
+      },
+      "finish": "length",
+      "text": "# Engineering Tutorial: Designing a Reliable Service for Request Processing\n\n## Table of Contents\n1. [Introduction](#introduction)\n2. [Core Principles of Reliability](#core-principles-of-reliability)\n3. [System Architecture Overview](#system-architecture-overview)\n4. [Detailed Component Design](#detailed-component-design)\n   - 4.1 Request Recording & Ingestion\n   - 4.2 Input Validation\n   - 4.3 Job Processing\n   - 4.4 Failure Handling & Recovery\n5. [Implementation Examples](#implementation-examples)\n   - 5.1",
+      "sha256": "d37b4800e9961d32c3daf0dadf77339f7738a0bda33d3b0f9ab5f9cec84f788d",
+      "chunks": 70
+    }
+  ]
+}

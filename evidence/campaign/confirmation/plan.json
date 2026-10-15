@@ -1,0 +1,16 @@
+[
+  {
+    "arm": "confirmation",
+    "state_dtype": "float16",
+    "flags": [
+      "--async-scheduling",
+      "--mamba-backend",
+      "flashinfer",
+      "--enable-mamba-cache-stochastic-rounding",
+      "--mamba-cache-philox-rounds",
+      "5",
+      "--speculative-config",
+      "{\"method\":\"mtp\",\"num_speculative_tokens\":1}"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "reference_correct": 16,
+  "reference_total": 20,
+  "candidate_correct": 58,
+  "total": 69,
+  "newly_failing_cases": []
+}

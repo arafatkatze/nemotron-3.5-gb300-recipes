@@ -1,0 +1,11 @@
+{
+  "version": 4,
+  "exact_answer_checks": 6,
+  "numerical_checks": 69,
+  "unique_numerical_cases": 23,
+  "numerical_repeats": 3,
+  "numerical_correct": 58,
+  "qualification": "six exact smoke checks; every control-passing numerical case must remain correct; all errors retained",
+  "prose_identity": "diagnostic only; unoptimized baseline changes wording across batch sizes",
+  "precision": "official NVFP4 weights and FP8 KV; SSM dtype and stochastic rounding recorded in each launch; TCP force_close"
+}
