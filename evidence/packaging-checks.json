@@ -1,0 +1,11 @@
+{
+  "python3 benchmark.py --help": "passed",
+  "python3 scripts/download_model.py --help": "passed",
+  "bash -n scripts/start.sh": "passed",
+  "bash scripts/start.sh control --dry-run": "passed",
+  "bash scripts/start.sh candidate --dry-run": "passed",
+  "Python syntax": "passed",
+  "Core prompt/request/batch/post AST matches measured source": "passed",
+  "Figure regeneration": "passed",
+  "GPU rerun of portable packaging": "not performed; original measurements retained"
+}

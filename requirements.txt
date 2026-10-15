@@ -1,0 +1,4 @@
+# Benchmark execution uses the pinned vLLM image's existing dependencies.
+# These are for model download and standalone figure regeneration.
+huggingface-hub>=0.30,<2
+matplotlib>=3.8,<4

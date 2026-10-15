@@ -1,0 +1,8 @@
+{
+  "six_run_min": 11677.065699250472,
+  "six_run_max": 11840.154676826085,
+  "six_run_pooled_output_tok_s": 11760.063222792442,
+  "matched_control_c256": 9711.957306775099,
+  "matched_candidate_c256": 11815.985373364772,
+  "matched_c256_gain_percent": 21.664305146006924
+}

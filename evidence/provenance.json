@@ -1,0 +1,10 @@
+{
+  "upstream_benchmark_sha256": "073b8a5b77038d3910fd99c54c060826671a80581c90d31cc469d86c2ff3b66a",
+  "adaptations": [
+    "CLI paths, endpoint and run selection",
+    "Self-contained control reference",
+    "All69 passing observations required",
+    "Optional confirmation integrity check"
+  ],
+  "measurement_implementation": "Prompt construction, streaming timing, fixed token checks, six smoke checks and23 numerical/code/retrieval cases retained from the measured campaign."
+}
