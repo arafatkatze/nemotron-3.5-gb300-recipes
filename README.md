@@ -1,5 +1,7 @@
 # Nemotron 3.5 Super VL: 11.8K output tok/s on one DGX Station GB300
 
+[Explore the design gallery](https://arafatkatze.github.io/nemotron-3.5-gb300-recipes/) — four artifacts in eight visual styles, with PNG/SVG downloads. The self-contained [HTML file](index.html) also works offline. Rebuild it with `python3 scripts/build_design_gallery.py`.
+
 Open recipes, benchmark code, synthetic quality cases, measured summaries, and editable figures. The experiment used stock vLLM and NVIDIA's documented FP16 recurrent-state/stochastic-rounding recipe. No custom runtime patches, overclocking, or model weights are included.
 
 **11,677–11,840 aggregate output tokens/sec** over local streaming HTTP at 256 concurrent requests, in six repetitions across two fresh server instances. Each request used exactly 512 input and 512 generated output tokens. Output includes native reasoning and final-answer tokens. This is aggregate output, not the speed of one user.

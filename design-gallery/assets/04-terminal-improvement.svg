@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T15:18:43.681086</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Nemotron recipe design gallery</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486
+L 864 486
+L 864 0
+L 0 0
+z
+" style="fill: #101915"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 250.56 388.8
+L 812.16 388.8
+L 812.16 155.52
+L 250.56 155.52
+z
+" style="fill: #101915"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: middle; fill: #8ca892" x="250.56" y="411.512187" transform="rotate(-0 250.56 411.512187)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 14px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: middle; fill: #8ca892" x="801.148235" y="411.512187" transform="rotate(-0 801.148235 411.512187)">13,000 tok/s</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 19px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: end; fill: #d7eddc" x="238.56" y="228.715941" transform="rotate(-0 238.56 228.715941)">FP32 state</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 19px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: end; fill: #d7eddc" x="238.56" y="330.091559" transform="rotate(-0 238.56 330.091559)">FP16 + rounding</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 250.56 242.746435
+L 661.889957 242.746435
+L 661.889957 200.147478
+L 250.56 200.147478
+z
+" clip-path="url(#p7fddd03c34)" style="fill: #4f725a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 250.56 344.172522
+L 751.001733 344.172522
+L 751.001733 301.573565
+L 250.56 301.573565
+z
+" clip-path="url(#p7fddd03c34)" style="fill: #94e5ac"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 250.56 388.8
+L 812.16 388.8
+" style="fill: none; stroke: #2b4032; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: end; fill: #101915" x="642.619368" y="228.069457" transform="rotate(-0 642.619368 228.069457)">9,712</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: end; fill: #101915" x="731.731145" y="329.495543" transform="rotate(-0 731.731145 329.495543)">11,816</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 27px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: start; fill: #d7eddc" x="51.84" y="58.32" transform="rotate(-0 51.84 58.32)">21.7% more output</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 15px; font-family: 'DejaVu Sans Mono', 'DejaVu Sans'; text-anchor: start; fill: #8ca892" x="53.568" y="87.48" transform="rotate(-0 53.568 87.48)">Matched throughput · 256 concurrent streams</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7fddd03c34">
+   <rect x="250.56" y="155.52" width="561.6" height="233.28"/>
+  </clipPath>
+ </defs>
+</svg>

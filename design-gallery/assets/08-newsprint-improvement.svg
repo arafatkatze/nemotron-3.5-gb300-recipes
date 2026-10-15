@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T15:18:44.215179</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Nemotron recipe design gallery</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486
+L 864 486
+L 864 0
+L 0 0
+z
+" style="fill: #f1f0e9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 129.6 398.52
+L 777.6 398.52
+L 777.6 140.94
+L 129.6 140.94
+z
+" style="fill: #f1f0e9"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 14px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: middle; fill: #72726b" x="318.6" y="421.103125" transform="rotate(-0 318.6 421.103125)">FP32 state</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 14px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: middle; fill: #72726b" x="588.6" y="421.103125" transform="rotate(-0 588.6 421.103125)">FP16 + rounding</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 129.6 398.52
+L 777.6 398.52
+" clip-path="url(#p1c796f93c1)" style="fill: none; stroke: #d1d1ca; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_3">
+      <text style="font-size: 14px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: end; fill: #72726b" x="117.6" y="403.811563" transform="rotate(-0 117.6 403.811563)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 129.6 180.231864
+L 777.6 180.231864
+" clip-path="url(#p1c796f93c1)" style="fill: none; stroke: #d1d1ca; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_4">
+      <text style="font-size: 14px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: end; fill: #72726b" x="117.6" y="185.523427" transform="rotate(-0 117.6 185.523427)">13,000 tok/s</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 244.35 398.52
+L 392.85 398.52
+L 392.85 235.442688
+L 244.35 235.442688
+z
+" clip-path="url(#p1c796f93c1)" style="fill: url(#h1d8cfc6a1d)"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 514.35 398.52
+L 662.85 398.52
+L 662.85 200.113122
+L 514.35 200.113122
+z
+" clip-path="url(#p1c796f93c1)" style="fill: #292929"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 129.6 398.52
+L 777.6 398.52
+" style="fill: none; stroke: #d1d1ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 25px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: middle; fill: #232323" x="318.6" y="225.619722" transform="rotate(-0 318.6 225.619722)">9,712</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 25px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: middle; fill: #232323" x="588.6" y="190.290156" transform="rotate(-0 588.6 190.290156)">11,816</text>
+   </g>
+  </g>
+  <g id="line2d_7">
+   <path d="M 51.84 29.16
+L 812.16 29.16
+" style="fill: none; stroke: #232323; stroke-width: 1.2; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_8">
+   <path d="M 51.84 111.78
+L 812.16 111.78
+" style="fill: none; stroke: #232323; stroke-width: 0.6; stroke-linecap: square"/>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 30px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: start; fill: #232323" x="51.84" y="58.32" transform="rotate(-0 51.84 58.32)">21.7% more output</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 15px; font-family: 'Georgia', 'DejaVu Sans'; text-anchor: start; fill: #72726b" x="53.568" y="87.48" transform="rotate(-0 53.568 87.48)">Matched throughput · 256 concurrent streams</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1c796f93c1">
+   <rect x="129.6" y="140.94" width="648" height="257.58"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h1d8cfc6a1d" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#a6a69f"/>
+   <path d="M -36 36
+L 36 -36
+M -32 40
+L 40 -32
+M -28 44
+L 44 -28
+M -24 48
+L 48 -24
+M -20 52
+L 52 -20
+M -16 56
+L 56 -16
+M -12 60
+L 60 -12
+M -8 64
+L 64 -8
+M -4 68
+L 68 -4
+M 0 72
+L 72 0
+M 4 76
+L 76 4
+M 8 80
+L 80 8
+M 12 84
+L 84 12
+M 16 88
+L 88 16
+M 20 92
+L 92 20
+M 24 96
+L 96 24
+M 28 100
+L 100 28
+M 32 104
+L 104 32
+M 36 108
+L 108 36
+" style="fill: #232323; stroke: #232323; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>
